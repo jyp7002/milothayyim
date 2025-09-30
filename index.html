@@ -65,25 +65,25 @@
         <div class="mb-6">
             <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">성경 탐색</h3>
             <div class="space-y-2">
-                <div class="flex items-center p-3 bg-green-50 rounded-lg border-l-4 border-bible-green">
+                <div class="flex items-center p-3 bg-green-50 rounded-lg border-l-4 border-bible-green cursor-pointer" onclick="navigateToScreen('screen-bible')">
                     <i class="fa-solid fa-book text-bible-green mr-3"></i>
                     <div>
                         <div class="font-medium text-gray-900">창세기 1장</div>
                         <div class="text-sm text-gray-500">현재 읽고 있는 장</div>
                     </div>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-search')">
                     <i class="fa-solid fa-search text-gray-400 mr-3"></i>
                     <span class="text-gray-700">본문 검색</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-dictionary')">
                     <i class="fa-solid fa-language text-gray-400 mr-3"></i>
                     <span class="text-gray-700">원어 사전</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-references')">
                     <i class="fa-solid fa-link text-gray-400 mr-3"></i>
                     <span class="text-gray-700">교차 참조</span>
                 </div>
@@ -93,17 +93,17 @@
         <div class="mb-6">
             <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">해석 도구</h3>
             <div class="space-y-2">
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-commentary')">
                     <i class="fa-solid fa-graduation-cap text-gray-400 mr-3"></i>
                     <span class="text-gray-700">신학적 주석</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-denominations')">
                     <i class="fa-solid fa-users text-gray-400 mr-3"></i>
                     <span class="text-gray-700">교단별 해석</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-comparison')">
                     <i class="fa-solid fa-balance-scale text-gray-400 mr-3"></i>
                     <span class="text-gray-700">해석 비교</span>
                 </div>
@@ -113,17 +113,17 @@
         <div class="mb-6">
             <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">공동체</h3>
             <div class="space-y-2">
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-prayer')">
                     <i class="fa-solid fa-pray text-gray-400 mr-3"></i>
                     <span class="text-gray-700">기도 그룹</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-meditation')">
                     <i class="fa-solid fa-comments text-gray-400 mr-3"></i>
                     <span class="text-gray-700">묵상 나눔</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-plans')">
                     <i class="fa-solid fa-calendar-days text-gray-400 mr-3"></i>
                     <span class="text-gray-700">읽기 계획</span>
                 </div>
@@ -133,17 +133,17 @@
         <div>
             <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">개인 도구</h3>
             <div class="space-y-2">
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-favorites')">
                     <i class="fa-solid fa-heart text-gray-400 mr-3"></i>
                     <span class="text-gray-700">즐겨찾기</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-notes')">
                     <i class="fa-solid fa-note-sticky text-gray-400 mr-3"></i>
                     <span class="text-gray-700">내 노트</span>
                 </div>
-                
-                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer">
+
+                <div class="flex items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer" onclick="navigateToScreen('screen-report')">
                     <i class="fa-solid fa-chart-line text-gray-400 mr-3"></i>
                     <span class="text-gray-700">영성 리포트</span>
                 </div>
@@ -165,7 +165,7 @@
 <!-- COMPONENT: Main Content Area -->
 <div id="main-content" class="ml-72 flex flex-col h-screen">
     <!-- Header -->
-    <div id="header" class="flex items-center justify-between p-4 bg-white border-b border-gray-200">
+    <div id="header" class="flex items-center justify-between p-4 bg-white border-b border-gray-200" style="display: none;">
         <div class="flex items-center space-x-4">
             <div class="flex items-center space-x-2">
                 <select class="bg-white border border-gray-300 rounded-lg px-3 py-2 text-sm">
@@ -209,7 +209,10 @@
         </div>
     </div>
 
+    <!-- Screens Container -->
     <div class="flex flex-1 min-h-0">
+        <!-- SCREEN: Bible Reading -->
+        <div id="screen-bible" class="app-screen flex flex-1 min-h-0">
         <!-- Bible Text Content -->
         <div id="bible-content" class="flex-1 p-6 overflow-y-auto bg-white">
             <div class="max-w-4xl mx-auto">
@@ -479,10 +482,891 @@
                 </div>
             </div>
         </div>
+        </div>
+        <!-- End SCREEN: Bible Reading -->
+
+        <!-- SCREEN: Text Search -->
+        <div id="screen-search" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">본문 검색</h1>
+
+                <div class="mb-6">
+                    <div class="flex space-x-2">
+                        <input type="text" placeholder="검색어를 입력하세요..." class="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bible-green focus:border-transparent">
+                        <button class="px-6 py-3 bg-bible-green text-white rounded-lg hover:bg-green-700 flex items-center">
+                            <i class="fa-solid fa-search mr-2"></i>
+                            검색
+                        </button>
+                    </div>
+                    <div class="mt-3 flex space-x-2">
+                        <button class="px-3 py-1 text-sm border border-gray-300 rounded-full hover:bg-gray-50">구약</button>
+                        <button class="px-3 py-1 text-sm border border-gray-300 rounded-full hover:bg-gray-50">신약</button>
+                        <button class="px-3 py-1 text-sm border border-gray-300 rounded-full hover:bg-gray-50">모세오경</button>
+                        <button class="px-3 py-1 text-sm border border-gray-300 rounded-full hover:bg-gray-50">복음서</button>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-4 hover:bg-green-50 cursor-pointer border border-gray-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="font-semibold text-gray-900 mb-1">창세기 1:1</div>
+                                <p class="text-gray-700">태초에 하나님이 <span class="bg-yellow-200">천지</span>를 창조하시니라</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-gray-400"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-lg p-4 hover:bg-green-50 cursor-pointer border border-gray-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="font-semibold text-gray-900 mb-1">요한복음 3:16</div>
+                                <p class="text-gray-700">하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니...</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Text Search -->
+
+        <!-- SCREEN: Original Language Dictionary -->
+        <div id="screen-dictionary" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">원어 사전</h1>
+
+                <div class="mb-6">
+                    <div class="flex space-x-2 mb-4">
+                        <button class="px-4 py-2 bg-bible-green text-white rounded-lg">히브리어</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">헬라어</button>
+                    </div>
+                    <input type="text" placeholder="Strong's 번호 또는 원어 입력..." class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-white border border-gray-200 rounded-lg p-6">
+                        <div class="flex items-start justify-between mb-4">
+                            <div>
+                                <div class="text-3xl original-text mb-2">בָּרָא</div>
+                                <div class="text-sm text-gray-500">Strong's H1254</div>
+                            </div>
+                            <button class="text-gray-400 hover:text-bible-green">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="mb-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">의미</h3>
+                            <p class="text-gray-700">창조하다, 만들다 (to create, to make)</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">어근</h3>
+                            <p class="text-gray-700">칼 동사 (Qal stem)</p>
+                        </div>
+
+                        <div>
+                            <h3 class="font-semibold text-gray-900 mb-2">사용 구절</h3>
+                            <div class="space-y-2">
+                                <div class="text-sm text-gray-600">• 창세기 1:1, 1:21, 1:27</div>
+                                <div class="text-sm text-gray-600">• 시편 51:10</div>
+                                <div class="text-sm text-gray-600">• 이사야 65:17</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Original Language Dictionary -->
+
+        <!-- SCREEN: Cross References -->
+        <div id="screen-references" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">교차 참조</h1>
+
+                <div class="mb-6">
+                    <input type="text" placeholder="구절을 입력하세요 (예: 창세기 1:1)" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                </div>
+
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
+                    <div class="font-semibold text-gray-900 mb-2">창세기 1:1</div>
+                    <p class="text-gray-700">태초에 하나님이 천지를 창조하시니라</p>
+                </div>
+
+                <h2 class="text-xl font-semibold text-gray-900 mb-4">관련 구절</h2>
+
+                <div class="space-y-3">
+                    <div class="bg-white border border-gray-200 rounded-lg p-4 hover:border-bible-green cursor-pointer">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="font-semibold text-bible-green">요한복음 1:1-3</span>
+                            <span class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">직접 참조</span>
+                        </div>
+                        <p class="text-sm text-gray-700">태초에 말씀이 계시니라 이 말씀이 하나님과 함께 계셨으니 이 말씀은 곧 하나님이시니라</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-4 hover:border-bible-green cursor-pointer">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="font-semibold text-bible-green">히브리서 11:3</span>
+                            <span class="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">주제 참조</span>
+                        </div>
+                        <p class="text-sm text-gray-700">믿음으로 모든 세계가 하나님의 말씀으로 지어진 줄을 우리가 아나니</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-4 hover:border-bible-green cursor-pointer">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="font-semibold text-bible-green">시편 33:6</span>
+                            <span class="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded">병행 구절</span>
+                        </div>
+                        <p class="text-sm text-gray-700">여호와의 말씀으로 하늘이 지음이 되었으며 그 만상을 그의 입 기운으로 이루었도다</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Cross References -->
+
+        <!-- SCREEN: Theological Commentary -->
+        <div id="screen-commentary" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">신학적 주석</h1>
+
+                <div class="mb-6">
+                    <select class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        <option>창세기 1장</option>
+                        <option>창세기 2장</option>
+                        <option>창세기 3장</option>
+                    </select>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-white border border-gray-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fa-solid fa-graduation-cap text-bible-green text-2xl mr-3"></i>
+                            <div>
+                                <h2 class="text-xl font-semibold text-gray-900">칼빈 주석</h2>
+                                <p class="text-sm text-gray-500">개혁주의 관점</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">
+                            창조에 관한 모세의 서술은 단순하지만 심오한 진리를 담고 있습니다. "태초에"라는 표현은 시간의 시작을 의미하며,
+                            하나님께서 시간과 공간을 초월하여 계심을 보여줍니다. "창조하시니라"는 무에서 유를 창조하시는 하나님의 전능하심을 나타냅니다...
+                        </p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fa-solid fa-book-open text-bible-earth text-2xl mr-3"></i>
+                            <div>
+                                <h2 class="text-xl font-semibold text-gray-900">매튜 헨리 주석</h2>
+                                <p class="text-sm text-gray-500">청교도 관점</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed">
+                            하나님은 모든 만물의 창조주이시며, 인간은 그 창조의 절정입니다. 창조 질서를 통해 우리는 하나님의 지혜와 능력을
+                            발견할 수 있으며, 이는 우리의 예배와 순종의 기초가 됩니다...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Theological Commentary -->
+
+        <!-- SCREEN: Denominational Interpretations -->
+        <div id="screen-denominations" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">교단별 해석</h1>
+
+                <div class="mb-6">
+                    <div class="flex flex-wrap gap-2">
+                        <button class="px-4 py-2 bg-bible-green text-white rounded-lg">전체</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">장로교</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">감리교</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">침례교</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">성결교</button>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-white border-l-4 border-blue-500 p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-blue-100 text-blue-700 text-sm px-3 py-1 rounded-full">장로교</span>
+                            <h3 class="ml-3 text-lg font-semibold text-gray-900">개혁주의 해석</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">
+                            하나님의 주권과 예정을 강조하며, 창조는 하나님의 영광을 드러내기 위한 목적으로 이루어졌습니다.
+                            언약신학적 관점에서 창조 언약을 중요시합니다.
+                        </p>
+                        <div class="text-sm text-gray-500">대표 신학자: 칼빈, 바빙크, 벌코프</div>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-red-500 p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-red-100 text-red-700 text-sm px-3 py-1 rounded-full">감리교</span>
+                            <h3 class="ml-3 text-lg font-semibold text-gray-900">웨슬리안 해석</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">
+                            하나님의 사랑과 은혜를 중심으로 창조를 해석하며, 인간의 자유의지와 책임을 강조합니다.
+                            성화의 관점에서 창조의 회복을 중요시합니다.
+                        </p>
+                        <div class="text-sm text-gray-500">대표 신학자: 존 웨슬리, 아담 클라크</div>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-green-500 p-6 rounded-lg shadow-sm">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-green-100 text-green-700 text-sm px-3 py-1 rounded-full">침례교</span>
+                            <h3 class="ml-3 text-lg font-semibold text-gray-900">침례교 해석</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">
+                            성경의 문자적 해석을 중시하며, 개인의 신앙 결단을 강조합니다.
+                            교회의 자율성과 신자들의 제사장직을 창조 질서에서 찾습니다.
+                        </p>
+                        <div class="text-sm text-gray-500">대표 신학자: 스펄전, 존 길</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Denominational Interpretations -->
+
+        <!-- SCREEN: Interpretation Comparison -->
+        <div id="screen-comparison" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-6xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">해석 비교</h1>
+
+                <div class="mb-6">
+                    <input type="text" placeholder="비교할 구절 입력 (예: 창세기 1:1)" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                </div>
+
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse">
+                        <thead>
+                            <tr class="bg-gray-100">
+                                <th class="border border-gray-300 px-4 py-3 text-left">관점</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">핵심 해석</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">강조점</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">
+                                    <span class="font-semibold text-gray-900">문자적 해석</span>
+                                    <div class="text-sm text-gray-500">Literal</div>
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    6일 창조를 24시간 하루로 해석
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    성경의 문자적 정확성
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">
+                                    <span class="font-semibold text-gray-900">날-시대 이론</span>
+                                    <div class="text-sm text-gray-500">Day-Age Theory</div>
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    각 '날'을 긴 시대로 해석
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    과학과의 조화
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">
+                                    <span class="font-semibold text-gray-900">간격 이론</span>
+                                    <div class="text-sm text-gray-500">Gap Theory</div>
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    창 1:1과 1:2 사이에 시간 간격 존재
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    지질학적 증거 수용
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">
+                                    <span class="font-semibold text-gray-900">문학적 해석</span>
+                                    <div class="text-sm text-gray-500">Literary Framework</div>
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    창조 기사를 신학적 문학 구조로 이해
+                                </td>
+                                <td class="border border-gray-300 px-4 py-3 text-sm">
+                                    신학적 의미와 메시지
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Interpretation Comparison -->
+
+        <!-- SCREEN: Prayer Groups -->
+        <div id="screen-prayer" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex justify-between items-center mb-6">
+                    <h1 class="text-3xl font-bold text-gray-900">기도 그룹</h1>
+                    <button class="px-4 py-2 bg-bible-green text-white rounded-lg hover:bg-green-700 flex items-center">
+                        <i class="fa-solid fa-plus mr-2"></i>
+                        그룹 만들기
+                    </button>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fa-solid fa-users text-bible-green text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">청년부 기도회</h3>
+                                <p class="text-sm text-gray-500">24명 참여 중</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-4">매주 수요일 저녁 9시, 청년들의 신앙 성장과 진로를 위해 함께 기도합니다.</p>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-500">
+                                <i class="fa-solid fa-calendar mr-1"></i>
+                                다음 모임: 수요일 21:00
+                            </span>
+                            <span class="text-bible-green font-medium">참여하기 →</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fa-solid fa-heart text-amber-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">가정 회복을 위한 기도</h3>
+                                <p class="text-sm text-gray-500">15명 참여 중</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-4">가정의 회복과 치유를 위해 함께 기도하는 모임입니다.</p>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-500">
+                                <i class="fa-solid fa-calendar mr-1"></i>
+                                다음 모임: 금요일 20:00
+                            </span>
+                            <span class="text-bible-green font-medium">참여하기 →</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                                <i class="fa-solid fa-globe text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">선교 기도 모임</h3>
+                                <p class="text-sm text-gray-500">32명 참여 중</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-4">전 세계 선교사들과 미전도 종족을 위해 중보하는 기도 모임입니다.</p>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-500">
+                                <i class="fa-solid fa-calendar mr-1"></i>
+                                다음 모임: 토요일 06:00
+                            </span>
+                            <span class="text-bible-green font-medium">참여하기 →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-green-50 border border-green-200 rounded-lg p-6">
+                    <h3 class="font-semibold text-gray-900 mb-2 flex items-center">
+                        <i class="fa-solid fa-lightbulb text-bible-green mr-2"></i>
+                        기도 제목 나누기
+                    </h3>
+                    <p class="text-sm text-gray-700 mb-4">공동체와 함께 나누고 싶은 기도 제목이 있나요?</p>
+                    <button class="px-4 py-2 bg-bible-green text-white rounded-lg hover:bg-green-700">
+                        기도 제목 등록하기
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Prayer Groups -->
+
+        <!-- SCREEN: Meditation Sharing -->
+        <div id="screen-meditation" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex justify-between items-center mb-6">
+                    <h1 class="text-3xl font-bold text-gray-900">묵상 나눔</h1>
+                    <button class="px-4 py-2 bg-bible-green text-white rounded-lg hover:bg-green-700 flex items-center">
+                        <i class="fa-solid fa-pen mr-2"></i>
+                        묵상 작성
+                    </button>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-white border border-gray-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
+                                <span class="text-bible-green font-semibold">김</span>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">김목사</div>
+                                <div class="text-sm text-gray-500">2시간 전 • 창세기 1:1-3</div>
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">빛의 창조와 우리 삶</h3>
+                        <p class="text-gray-700 mb-4">
+                            "빛이 있으라"는 하나님의 말씀이 어둠을 물리쳤듯이, 우리 삶의 어두운 순간에도 하나님의 말씀은 빛이 됩니다.
+                            오늘 힘든 상황 가운데 있는 분들에게 이 말씀이 위로가 되길 기도합니다...
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500">
+                            <button class="flex items-center hover:text-bible-green">
+                                <i class="fa-solid fa-heart mr-1"></i>
+                                <span>45</span>
+                            </button>
+                            <button class="flex items-center hover:text-bible-green">
+                                <i class="fa-solid fa-comment mr-1"></i>
+                                <span>12</span>
+                            </button>
+                            <button class="flex items-center hover:text-bible-green">
+                                <i class="fa-solid fa-share mr-1"></i>
+                                <span>공유</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-10 h-10 bg-amber-200 rounded-full flex items-center justify-center mr-3">
+                                <span class="text-amber-700 font-semibold">박</span>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">박주영</div>
+                                <div class="text-sm text-gray-500">5시간 전 • 시편 23편</div>
+                            </div>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">목자 되시는 주님</h3>
+                        <p class="text-gray-700 mb-4">
+                            시편 23편을 묵상하면서 주님께서 나의 목자가 되신다는 것이 얼마나 큰 은혜인지 깨달았습니다.
+                            부족함이 없다는 것은 물질적 풍요가 아니라 주님과의 관계 안에서 만족을 누린다는 의미인 것 같습니다.
+                        </p>
+                        <div class="flex items-center space-x-4 text-sm text-gray-500">
+                            <button class="flex items-center hover:text-bible-green">
+                                <i class="fa-solid fa-heart mr-1"></i>
+                                <span>32</span>
+                            </button>
+                            <button class="flex items-center hover:text-bible-green">
+                                <i class="fa-solid fa-comment mr-1"></i>
+                                <span>8</span>
+                            </button>
+                            <button class="flex items-center hover:text-bible-green">
+                                <i class="fa-solid fa-share mr-1"></i>
+                                <span>공유</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Meditation Sharing -->
+
+        <!-- SCREEN: Reading Plans -->
+        <div id="screen-plans" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">읽기 계획</h1>
+
+                <div class="mb-6">
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">1년 1독 성경읽기</h3>
+                                <p class="text-sm text-gray-600">현재 진행 중인 계획</p>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-3xl font-bold text-bible-green">45%</div>
+                                <div class="text-sm text-gray-600">완료</div>
+                            </div>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+                            <div class="bg-bible-green rounded-full h-3" style="width: 45%"></div>
+                        </div>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-600">165일 완료 / 365일</span>
+                            <button class="text-bible-green font-medium hover:underline">오늘의 읽기 →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="text-xl font-semibold text-gray-900 mb-4">추천 읽기 계획</h2>
+
+                <div class="space-y-4">
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 hover:border-bible-green cursor-pointer">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <h3 class="font-semibold text-gray-900 mb-2">시편 30일 계획</h3>
+                                <p class="text-sm text-gray-600 mb-3">한 달 동안 시편 전체를 읽고 묵상하는 계획입니다.</p>
+                                <div class="flex items-center space-x-4 text-sm text-gray-500">
+                                    <span><i class="fa-solid fa-calendar mr-1"></i>30일</span>
+                                    <span><i class="fa-solid fa-book mr-1"></i>시편</span>
+                                    <span><i class="fa-solid fa-users mr-1"></i>1,234명 참여</span>
+                                </div>
+                            </div>
+                            <button class="ml-4 px-4 py-2 border border-bible-green text-bible-green rounded-lg hover:bg-green-50">
+                                시작하기
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 hover:border-bible-green cursor-pointer">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <h3 class="font-semibold text-gray-900 mb-2">사복음서 90일 통독</h3>
+                                <p class="text-sm text-gray-600 mb-3">마태, 마가, 누가, 요한복음을 90일 동안 읽는 계획입니다.</p>
+                                <div class="flex items-center space-x-4 text-sm text-gray-500">
+                                    <span><i class="fa-solid fa-calendar mr-1"></i>90일</span>
+                                    <span><i class="fa-solid fa-book mr-1"></i>사복음서</span>
+                                    <span><i class="fa-solid fa-users mr-1"></i>856명 참여</span>
+                                </div>
+                            </div>
+                            <button class="ml-4 px-4 py-2 border border-bible-green text-bible-green rounded-lg hover:bg-green-50">
+                                시작하기
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 hover:border-bible-green cursor-pointer">
+                        <div class="flex items-start justify-between">
+                            <div class="flex-1">
+                                <h3 class="font-semibold text-gray-900 mb-2">잠언 31일 지혜 묵상</h3>
+                                <p class="text-sm text-gray-600 mb-3">매일 한 장씩 잠언을 읽고 실생활에 적용하는 계획입니다.</p>
+                                <div class="flex items-center space-x-4 text-sm text-gray-500">
+                                    <span><i class="fa-solid fa-calendar mr-1"></i>31일</span>
+                                    <span><i class="fa-solid fa-book mr-1"></i>잠언</span>
+                                    <span><i class="fa-solid fa-users mr-1"></i>2,105명 참여</span>
+                                </div>
+                            </div>
+                            <button class="ml-4 px-4 py-2 border border-bible-green text-bible-green rounded-lg hover:bg-green-50">
+                                시작하기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Reading Plans -->
+
+        <!-- SCREEN: Favorites -->
+        <div id="screen-favorites" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex justify-between items-center mb-6">
+                    <h1 class="text-3xl font-bold text-gray-900">즐겨찾기</h1>
+                    <div class="flex space-x-2">
+                        <button class="px-4 py-2 bg-bible-green text-white rounded-lg">전체</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">구절</button>
+                        <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">노트</button>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-white border-l-4 border-red-400 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <span class="font-semibold text-bible-green">요한복음 3:16</span>
+                                <div class="text-xs text-gray-500 mt-1">2024.09.15 추가</div>
+                            </div>
+                            <button class="text-red-500 hover:text-red-600">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                        <p class="text-gray-700 mb-2">
+                            하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라
+                        </p>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-3">
+                            <p class="text-sm text-gray-700">
+                                <span class="font-semibold">내 노트:</span> 하나님의 사랑의 본질과 범위를 보여주는 핵심 구절. 복음의 핵심 메시지.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-amber-400 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <span class="font-semibold text-bible-green">시편 23:1</span>
+                                <div class="text-xs text-gray-500 mt-1">2024.09.10 추가</div>
+                            </div>
+                            <button class="text-red-500 hover:text-red-600">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                        <p class="text-gray-700">
+                            여호와는 나의 목자시니 내게 부족함이 없으리로다
+                        </p>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-green-400 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <span class="font-semibold text-bible-green">빌립보서 4:6-7</span>
+                                <div class="text-xs text-gray-500 mt-1">2024.09.05 추가</div>
+                            </div>
+                            <button class="text-red-500 hover:text-red-600">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                        <p class="text-gray-700">
+                            아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Favorites -->
+
+        <!-- SCREEN: My Notes -->
+        <div id="screen-notes" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex justify-between items-center mb-6">
+                    <h1 class="text-3xl font-bold text-gray-900">내 노트</h1>
+                    <button class="px-4 py-2 bg-bible-green text-white rounded-lg hover:bg-green-700 flex items-center">
+                        <i class="fa-solid fa-plus mr-2"></i>
+                        새 노트
+                    </button>
+                </div>
+
+                <div class="mb-6">
+                    <div class="flex space-x-2">
+                        <input type="text" placeholder="노트 검색..." class="flex-1 px-4 py-2 border border-gray-300 rounded-lg">
+                        <select class="px-4 py-2 border border-gray-300 rounded-lg">
+                            <option>전체</option>
+                            <option>창세기</option>
+                            <option>요한복음</option>
+                            <option>시편</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">창조의 질서와 의미</h3>
+                                <p class="text-xs text-gray-500">창세기 1-2장 • 2024.09.20</p>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-3 line-clamp-3">
+                            하나님의 창조는 단순히 물리적 세계를 만드신 것이 아니라, 질서와 의미를 부여하신 것입니다.
+                            각 날의 창조는 점진적으로 생명이 거할 환경을 준비하고...
+                        </p>
+                        <div class="flex items-center space-x-2">
+                            <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">창조</span>
+                            <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded">신학</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">예수님의 사랑의 계명</h3>
+                                <p class="text-xs text-gray-500">요한복음 13-15장 • 2024.09.18</p>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-3 line-clamp-3">
+                            "서로 사랑하라"는 예수님의 새 계명은 단순한 윤리적 가르침이 아니라,
+                            예수님께서 보여주신 십자가 사랑을 실천하라는 명령입니다...
+                        </p>
+                        <div class="flex items-center space-x-2">
+                            <span class="bg-red-100 text-red-700 text-xs px-2 py-1 rounded">사랑</span>
+                            <span class="bg-purple-100 text-purple-700 text-xs px-2 py-1 rounded">제자도</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">믿음과 행함의 관계</h3>
+                                <p class="text-xs text-gray-500">야고보서 2장 • 2024.09.15</p>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-3 line-clamp-3">
+                            야고보서는 믿음과 행함이 분리될 수 없음을 강조합니다.
+                            진정한 믿음은 반드시 삶의 변화와 실천으로 나타납니다...
+                        </p>
+                        <div class="flex items-center space-x-2">
+                            <span class="bg-amber-100 text-amber-700 text-xs px-2 py-1 rounded">믿음</span>
+                            <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">실천</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:shadow-lg transition-shadow cursor-pointer">
+                        <div class="flex items-start justify-between mb-3">
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">성령의 9가지 열매</h3>
+                                <p class="text-xs text-gray-500">갈라디아서 5장 • 2024.09.12</p>
+                            </div>
+                            <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-3 line-clamp-3">
+                            성령의 열매는 우리의 노력으로 맺는 것이 아니라,
+                            성령님께서 우리 안에 거하시며 자연스럽게 맺어주시는 그리스도의 성품입니다...
+                        </p>
+                        <div class="flex items-center space-x-2">
+                            <span class="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded">성령</span>
+                            <span class="bg-pink-100 text-pink-700 text-xs px-2 py-1 rounded">성화</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: My Notes -->
+
+        <!-- SCREEN: Spiritual Report -->
+        <div id="screen-report" class="app-screen hidden flex-1 p-6 overflow-y-auto bg-white">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-3xl font-bold text-gray-900 mb-6">영성 리포트</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-6 border border-green-200">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-gray-600">이번 달 읽은 장</span>
+                            <i class="fa-solid fa-book text-bible-green"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-900">142</div>
+                        <div class="text-sm text-green-600 mt-1">↑ 지난달 대비 +23%</div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-lg p-6 border border-blue-200">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-gray-600">묵상 노트</span>
+                            <i class="fa-solid fa-note-sticky text-blue-600"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-900">18</div>
+                        <div class="text-sm text-blue-600 mt-1">↑ 지난달 대비 +12%</div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-lg p-6 border border-amber-200">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm text-gray-600">연속 읽기</span>
+                            <i class="fa-solid fa-fire text-amber-600"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-900">15일</div>
+                        <div class="text-sm text-amber-600 mt-1">계속 유지하세요!</div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6 mb-6">
+                    <h2 class="text-xl font-semibold text-gray-900 mb-4">이번 달 읽기 활동</h2>
+                    <div class="h-64 flex items-end justify-between space-x-2">
+                        <div class="flex-1 bg-gray-200 rounded-t" style="height: 40%"></div>
+                        <div class="flex-1 bg-gray-200 rounded-t" style="height: 55%"></div>
+                        <div class="flex-1 bg-gray-200 rounded-t" style="height: 70%"></div>
+                        <div class="flex-1 bg-bible-green rounded-t" style="height: 85%"></div>
+                    </div>
+                    <div class="flex justify-between mt-2 text-sm text-gray-500">
+                        <span>1주</span>
+                        <span>2주</span>
+                        <span>3주</span>
+                        <span>4주</span>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-lg p-6">
+                    <h2 class="text-xl font-semibold text-gray-900 mb-4">가장 많이 읽은 책</h2>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <span class="w-8 h-8 bg-bible-green text-white rounded flex items-center justify-center text-sm font-bold mr-3">1</span>
+                                <span class="text-gray-900">시편</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                                    <div class="bg-bible-green rounded-full h-2" style="width: 85%"></div>
+                                </div>
+                                <span class="text-sm text-gray-600">28장</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <span class="w-8 h-8 bg-gray-400 text-white rounded flex items-center justify-center text-sm font-bold mr-3">2</span>
+                                <span class="text-gray-900">요한복음</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                                    <div class="bg-gray-400 rounded-full h-2" style="width: 65%"></div>
+                                </div>
+                                <span class="text-sm text-gray-600">15장</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <span class="w-8 h-8 bg-amber-600 text-white rounded flex items-center justify-center text-sm font-bold mr-3">3</span>
+                                <span class="text-gray-900">창세기</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                                    <div class="bg-amber-600 rounded-full h-2" style="width: 45%"></div>
+                                </div>
+                                <span class="text-sm text-gray-600">12장</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End SCREEN: Spiritual Report -->
+
     </div>
 </div>
 
 <script>
+// Navigation System
+function navigateToScreen(screenId) {
+    // Hide all screens
+    document.querySelectorAll('.app-screen').forEach(screen => {
+        screen.classList.add('hidden');
+    });
+
+    // Show the selected screen
+    const targetScreen = document.getElementById(screenId);
+    if (targetScreen) {
+        targetScreen.classList.remove('hidden');
+    }
+
+    // Update sidebar menu active states
+    document.querySelectorAll('#sidebar .space-y-2 > div').forEach(item => {
+        item.classList.remove('bg-green-50', 'border-l-4', 'border-bible-green');
+        item.classList.add('hover:bg-gray-50');
+
+        // Reset icon and text colors
+        const icon = item.querySelector('i');
+        const text = item.querySelector('span');
+        if (icon) {
+            icon.classList.remove('text-bible-green');
+            icon.classList.add('text-gray-400');
+        }
+        if (text) {
+            text.classList.remove('text-gray-900');
+            text.classList.add('text-gray-700');
+        }
+    });
+
+    // Add active state to clicked item
+    event.currentTarget.classList.remove('hover:bg-gray-50');
+    event.currentTarget.classList.add('bg-green-50', 'border-l-4', 'border-bible-green');
+
+    // Update icon and text colors for active item
+    const activeIcon = event.currentTarget.querySelector('i');
+    const activeText = event.currentTarget.querySelector('span, .font-medium');
+    if (activeIcon) {
+        activeIcon.classList.remove('text-gray-400');
+        activeIcon.classList.add('text-bible-green');
+    }
+    if (activeText) {
+        activeText.classList.remove('text-gray-700');
+        activeText.classList.add('text-gray-900');
+    }
+}
+
 function selectVerse(verseNum) {
     // Remove previous selections
     document.querySelectorAll('.verse-group').forEach(verse => {
